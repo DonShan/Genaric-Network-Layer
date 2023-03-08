@@ -11,14 +11,22 @@
 		29AFE6A829B8FF8A00AD5075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFE6A729B8FF8A00AD5075 /* ContentView.swift */; };
 		29AFE6AA29B8FF8B00AD5075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AFE6A929B8FF8B00AD5075 /* Assets.xcassets */; };
 		29AFE6AD29B8FF8B00AD5075 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29AFE6AC29B8FF8B00AD5075 /* Preview Assets.xcassets */; };
+		29AFE6B529B9001200AD5075 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFE6B429B9001200AD5075 /* NetworkManager.swift */; };
+		29AFE6BB29B9009800AD5075 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFE6BA29B9009800AD5075 /* User.swift */; };
+		29AFE6BE29B900D100AD5075 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFE6BD29B900D100AD5075 /* UserListViewModel.swift */; };
+		29AFE6C029B9013200AD5075 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AFE6BF29B9013200AD5075 /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29AFE6A229B8FF8A00AD5075 /* Genaic Network Layer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genaic Network Layer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AFE6A229B8FF8A00AD5075 /* Genaric Network Layer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Genaric Network Layer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AFE6A529B8FF8A00AD5075 /* Genaic_Network_LayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genaic_Network_LayerApp.swift; sourceTree = "<group>"; };
 		29AFE6A729B8FF8A00AD5075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29AFE6A929B8FF8B00AD5075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29AFE6AC29B8FF8B00AD5075 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29AFE6B429B9001200AD5075 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		29AFE6BA29B9009800AD5075 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		29AFE6BD29B900D100AD5075 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		29AFE6BF29B9013200AD5075 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +51,7 @@
 		29AFE6A329B8FF8A00AD5075 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29AFE6A229B8FF8A00AD5075 /* Genaic Network Layer.app */,
+				29AFE6A229B8FF8A00AD5075 /* Genaric Network Layer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +59,14 @@
 		29AFE6A429B8FF8A00AD5075 /* Genaic Network Layer */ = {
 			isa = PBXGroup;
 			children = (
+				29AFE6BC29B900B100AD5075 /* ViewModel */,
+				29AFE6B929B9006F00AD5075 /* User Model */,
+				29AFE6B329B8FFCE00AD5075 /* Network Manger */,
 				29AFE6A529B8FF8A00AD5075 /* Genaic_Network_LayerApp.swift */,
 				29AFE6A729B8FF8A00AD5075 /* ContentView.swift */,
 				29AFE6A929B8FF8B00AD5075 /* Assets.xcassets */,
 				29AFE6AB29B8FF8B00AD5075 /* Preview Content */,
+				29AFE6BF29B9013200AD5075 /* UserListView.swift */,
 			);
 			path = "Genaic Network Layer";
 			sourceTree = "<group>";
@@ -67,12 +79,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		29AFE6B329B8FFCE00AD5075 /* Network Manger */ = {
+			isa = PBXGroup;
+			children = (
+				29AFE6B429B9001200AD5075 /* NetworkManager.swift */,
+			);
+			path = "Network Manger";
+			sourceTree = "<group>";
+		};
+		29AFE6B929B9006F00AD5075 /* User Model */ = {
+			isa = PBXGroup;
+			children = (
+				29AFE6BA29B9009800AD5075 /* User.swift */,
+			);
+			path = "User Model";
+			sourceTree = "<group>";
+		};
+		29AFE6BC29B900B100AD5075 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29AFE6BD29B900D100AD5075 /* UserListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29AFE6A129B8FF8A00AD5075 /* Genaic Network Layer */ = {
+		29AFE6A129B8FF8A00AD5075 /* Genaric Network Layer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29AFE6B029B8FF8B00AD5075 /* Build configuration list for PBXNativeTarget "Genaic Network Layer" */;
+			buildConfigurationList = 29AFE6B029B8FF8B00AD5075 /* Build configuration list for PBXNativeTarget "Genaric Network Layer" */;
 			buildPhases = (
 				29AFE69E29B8FF8A00AD5075 /* Sources */,
 				29AFE69F29B8FF8A00AD5075 /* Frameworks */,
@@ -82,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = "Genaic Network Layer";
+			name = "Genaric Network Layer";
 			productName = "Genaic Network Layer";
-			productReference = 29AFE6A229B8FF8A00AD5075 /* Genaic Network Layer.app */;
+			productReference = 29AFE6A229B8FF8A00AD5075 /* Genaric Network Layer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29AFE69D29B8FF8A00AD5075 /* Build configuration list for PBXProject "Genaic Network Layer" */;
+			buildConfigurationList = 29AFE69D29B8FF8A00AD5075 /* Build configuration list for PBXProject "Genaric Network Layer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29AFE6A129B8FF8A00AD5075 /* Genaic Network Layer */,
+				29AFE6A129B8FF8A00AD5075 /* Genaric Network Layer */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AFE6BB29B9009800AD5075 /* User.swift in Sources */,
+				29AFE6C029B9013200AD5075 /* UserListView.swift in Sources */,
+				29AFE6B529B9001200AD5075 /* NetworkManager.swift in Sources */,
 				29AFE6A829B8FF8A00AD5075 /* ContentView.swift in Sources */,
 				29AFE6A629B8FF8A00AD5075 /* Genaic_Network_LayerApp.swift in Sources */,
+				29AFE6BE29B900D100AD5075 /* UserListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29AFE69D29B8FF8A00AD5075 /* Build configuration list for PBXProject "Genaic Network Layer" */ = {
+		29AFE69D29B8FF8A00AD5075 /* Build configuration list for PBXProject "Genaric Network Layer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29AFE6AE29B8FF8B00AD5075 /* Debug */,
@@ -327,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29AFE6B029B8FF8B00AD5075 /* Build configuration list for PBXNativeTarget "Genaic Network Layer" */ = {
+		29AFE6B029B8FF8B00AD5075 /* Build configuration list for PBXNativeTarget "Genaric Network Layer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29AFE6B129B8FF8B00AD5075 /* Debug */,
